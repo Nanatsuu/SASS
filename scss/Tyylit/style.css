@@ -1,0 +1,26 @@
+@charset "UTF-8";
+h1 {
+  color: rgb(100, 187, 100);
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+/*Ensimmäinen sarake*/
+.col:first-of-type {
+  background-color: aquamarine;
+}
+
+/*Toinen sarake*/
+.col:nth-of-type(2) {
+  background-color: peachpuff;
+}
+
+/*Kolmas sarake*/
+.col:nth-of-type(3) {
+  background-color: lightgreen;
+}
+
+/*# sourceMappingURL=style.css.map */
